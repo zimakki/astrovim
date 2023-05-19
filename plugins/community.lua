@@ -8,4 +8,5 @@ return {
   { import = "astrocommunity.motion.nvim-surround" },
   { import = "astrocommunity.pack.tailwindcss" },
   { import = "astrocommunity.completion.copilot-lua-cmp" },
+  { import = "astrocommunity.editing-support.todo-comments-nvim" },
 }
