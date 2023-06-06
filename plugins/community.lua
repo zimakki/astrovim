@@ -19,4 +19,6 @@ return {
   -- TODO::work out why I can't jump to edit a file from lazygit - I thought flattn was supposed to fix this
   -- { import = "astrocommunity.terminal-integration.flatten-nvim" },
   { import = "astrocommunity.utility.noice-nvim" },
+
+  -- TODO:: see if there is a good plugin for Github PR's
 }

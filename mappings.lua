@@ -11,10 +11,9 @@ return {
     ["<leader>bn"] = { "<cmd>tabnew<cr>", desc = "New tab" },
     ["<leader>bD"] = {
       function()
-        require("astronvim.utils.status").heirline.buffer_picker(function(bufnr)
-          require("astronvim.utils.buffer").close(
-            bufnr)
-        end)
+        require("astronvim.utils.status").heirline.buffer_picker(
+          function(bufnr) require("astronvim.utils.buffer").close(bufnr) end
+        )
       end,
       desc = "Pick to close",
     },
@@ -27,6 +26,8 @@ return {
     ["<leader>ss"] = { ":Telescope current_buffer_fuzzy_find<cr>", desc = " Search Buffer" },
     ["<leader>sh"] = { ":Telescope resume<cr>", desc = " Telescope History" },
     ["<leader>st"] = { ":TodoTelescope<cr>", desc = " Telescope todo's" },
+    ["H"] = { ":bp<cr>", desc = "<<< buffer" },
+    ["L"] = { ":bn<cr>", desc = ">>> buffer" },
   },
   t = {
     -- setting a mapping to false will disable it
