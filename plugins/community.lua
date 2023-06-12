@@ -14,10 +14,12 @@ return {
   { import = "astrocommunity.editing-support.todo-comments-nvim" },
   { import = "astrocommunity.scrolling.mini-animate" },
   -- TODO: try out spectra at some point
-  -- { import = "astrocommunity.project.nvim-spectra" },
+  { import = "astrocommunity.project.nvim-spectre" },
   -- TODO::work out why I can't jump to edit a file from lazygit - I thought flattn was supposed to fix this
   -- { import = "astrocommunity.terminal-integration.flatten-nvim" },
   { import = "astrocommunity.utility.noice-nvim" },
-
+  { import = "astrocommunity.motion.vim-matchup" },
+  { import = "astrocommunity.terminal-integration.flatten-nvim" },
+  { import = "astrocommunity.diagnostics.trouble-nvim" },
   -- TODO:: see if there is a good plugin for Github PR's
 }
