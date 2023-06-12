@@ -11,7 +11,6 @@ return {
   -- tailwindcss lsp is not showing up in ex and heex files
   { import = "astrocommunity.pack.tailwindcss" },
   { import = "astrocommunity.pack.lua" },
-  { import = "astrocommunity.completion.copilot-lua-cmp" },
   { import = "astrocommunity.editing-support.todo-comments-nvim" },
   { import = "astrocommunity.scrolling.mini-animate" },
   -- TODO: try out spectra at some point
