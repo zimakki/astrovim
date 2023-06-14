@@ -23,7 +23,7 @@ return {
     -- quick save
     ["<C-s>"] = { ":w!<cr>", desc = "Save File" }, -- change description but the same command
     ["<leader>bb"] = { ":Telescope buffers<cr>", desc = " Buffers" },
-    ["<leader>ss"] = { ":Telescope current_buffer_fuzzy_find<cr>", desc = " Search Buffer" },
+    ["<leader>sw"] = { ":Telescope current_buffer_fuzzy_find<cr>", desc = " Search Buffer" },
     ["<leader>sh"] = { ":Telescope resume<cr>", desc = " Telescope History" },
     ["<leader>st"] = { ":TodoTelescope<cr>", desc = " Telescope todo's" },
     ["H"] = { ":bp<cr>", desc = "<<< buffer" },
