@@ -28,6 +28,9 @@ return {
     ["<leader>st"] = { ":TodoTelescope<cr>", desc = " Telescope todo's" },
     ["H"] = { ":bp<cr>", desc = "<<< buffer" },
     ["L"] = { ":bn<cr>", desc = ">>> buffer" },
+    -- run vim.lsp.codelens.run() with <leader>tt
+    ["<leader>tt"] = { vim.lsp.codelens.run, desc = "Run CodeLens (tests)" },
+    --
   },
   t = {
     -- setting a mapping to false will disable it
