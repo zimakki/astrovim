@@ -50,7 +50,27 @@ return {
     },
     -- enable servers that you already have installed without mason
     servers = {
-      -- "pyright"
+      "lexical",
+    },
+    config = {
+      lexical = function()
+        return {
+          cmd = {
+            "/Users/zimakki/code/lexical-lsp/lexical/_build/dev/rel/lexical/start_lexical.sh",
+          },
+          filetypes = { "elixir", "eelixir", "heex", "surface" },
+          root_dir = function(fname)
+            local lspconfig = require "lspconfig"
+            -- Set `~/Code/lexical` as root_dir for lexical project
+            local project = lspconfig.util.root_pattern ".git" (fname)
+            if project and string.sub(project, -12) == "code/lexical" then
+              return project
+            else
+              return lspconfig.util.root_pattern("mix.exs", ".git")(fname) or vim.loop.os_homedir()
+            end
+          end,
+        }
+      end,
     },
   },
 
