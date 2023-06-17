@@ -29,6 +29,7 @@ return {
     ["H"] = { ":bp<cr>", desc = "<<< buffer" },
     ["L"] = { ":bn<cr>", desc = ">>> buffer" },
     ["<leader>tt"] = { ":Neotest run<cr>", desc = "run tests" },
+    ["<leader>tT"] = { ":Neotest summary<cr>", desc = "run tests" },
     ["<leader>tr"] = { ":Neotest run last<cr>", desc = "rerun last test" },
     ["<leader>to"] = { ":Neotest output<cr>", desc = "rerun last test" },
   },
