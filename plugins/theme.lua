@@ -6,8 +6,10 @@ return {
 
   require("notify").setup {
     background_colour = "NotifyBackground",
-    background_alpha = 0.8,
-    background_opacity = 0.8,
+    -- TODO: work out how to back the baground transparent
+    -- the below has no effect
+    -- background_alpha = 0.8,
+    -- background_opacity = 0.8,
     fps = 30,
     icons = {
       DEBUG = "",
