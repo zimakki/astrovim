@@ -28,7 +28,7 @@ return {
     ["<leader>st"] = { ":TodoTelescope<cr>", desc = " Telescope todo's" },
     ["H"] = { ":bp<cr>", desc = "<<< buffer" },
     ["L"] = { ":bn<cr>", desc = ">>> buffer" },
-    ["<leader>tt"] = { ":w<cr>:Neotest run<cr>", desc = "run tests" },
+    ["<leader>tt"] = { ":wa<cr>:Neotest run<cr>", desc = "run tests" },
     ["<leader>tT"] = { ":Neotest summary<cr>", desc = "run tests" },
     ["<leader>tr"] = { ":w<cr>:Neotest run last<cr>", desc = "rerun last test" },
     ["<leader>to"] = { ":Neotest output<cr>", desc = "rerun last test" },
