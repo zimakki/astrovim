@@ -21,7 +21,7 @@ return {
     -- this is useful for naming menus
     ["<leader>b"] = { name = "Buffers" },
     -- quick save
-    ["<C-s>"] = { ":w!<cr>", desc = "Save File" }, -- change description but the same command
+    ["<C-s>"] = { ":w!<cr>", desc = "Save File" },
     ["<leader>bb"] = { ":Telescope buffers<cr>", desc = " Buffers" },
     ["<leader>sw"] = { ":Telescope current_buffer_fuzzy_find<cr>", desc = " Search Buffer" },
     ["<leader>sh"] = { ":Telescope resume<cr>", desc = " Telescope History" },
@@ -32,7 +32,18 @@ return {
     ["<leader>tT"] = { ":Neotest summary<cr>", desc = "run tests" },
     ["<leader>tr"] = { ":w<cr>:Neotest run last<cr>", desc = "rerun last test" },
     ["<leader>to"] = { ":Neotest output<cr>", desc = "rerun last test" },
+    ["<C-e>"] = { "A<esc>", desc = "got the end of the line" },
+    ["<C-a>"] = { "I<esc>", desc = "got the start of the line" },
   },
+  i = {
+    ["<C-e>"] = { "<esc>A", desc = "got the end of the line" },
+    ["<C-a>"] = { "<esc>I", desc = "got the start of the line" },
+  },
+  v = {
+    ["<C-e>"] = { "$", desc = "got the end of the line" },
+    ["<C-a>"] = { "0", desc = "got the start of the line" },
+  },
+
   t = {
     -- setting a mapping to false will disable it
     -- ["<esc>"] = false,
