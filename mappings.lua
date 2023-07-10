@@ -20,7 +20,7 @@ return {
     -- tables with the `name` key will be registered with which-key if it's installed
     -- this is useful for naming menus
     ["<leader>b"] = { name = "Buffers" },
-    -- quick save
+    -- quick save,
     ["<C-s>"] = { ":w!<cr>", desc = "Save File" },
     ["<leader>bb"] = { ":Telescope buffers<cr>", desc = " Buffers" },
     ["<leader>sw"] = { ":Telescope current_buffer_fuzzy_find<cr>", desc = " Search Buffer" },
@@ -34,6 +34,7 @@ return {
     ["<leader>to"] = { ":Neotest output<cr>", desc = "rerun last test" },
     ["<C-e>"] = { "A<esc>", desc = "got the end of the line" },
     ["<C-a>"] = { "I<esc>", desc = "got the start of the line" },
+    ["yY"] = { "ggVG", desc = "select AAAALLLLLLLLLL" },
   },
   i = {
     ["<C-e>"] = { "<esc>A", desc = "got the end of the line" },
