@@ -48,6 +48,10 @@ return {
         if copilot.is_visible() then copilot.accept() end
       end)
 
+      opts.mapping["<C-c>"] = cmp.mapping(function()
+        if copilot.is_visible() then copilot.dismiss() end
+      end)
+
       ---------------------------------------------------------
       -- don't like the below mappings
       ---------------------------------------------------------
@@ -67,9 +71,6 @@ return {
       --   if copilot.is_visible() then copilot.accept_line() end
       -- end)
       --
-      opts.mapping["<C-c>"] = cmp.mapping(function()
-        if copilot.is_visible() then copilot.dismiss() end
-      end)
 
       return opts
     end,
