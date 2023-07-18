@@ -42,6 +42,7 @@ return {
   i = {
     ["<C-e>"] = { "<esc>A", desc = "got the end of the line" },
     ["<C-a>"] = { "<esc>I", desc = "got the start of the line" },
+    ["<C-p>"] = { "|>", desc = "insert a |>" },
   },
   v = {
     ["<C-e>"] = { "$", desc = "got the end of the line" },
