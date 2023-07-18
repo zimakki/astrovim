@@ -47,6 +47,7 @@ return {
   v = {
     ["<C-e>"] = { "$", desc = "got the end of the line" },
     ["<C-a>"] = { "0", desc = "got the start of the line" },
+    ["<leader>xr"] = { ":'<,'>SnipRun<CR>", desc = "run SnipRun!!!!" },
   },
 
   t = {
