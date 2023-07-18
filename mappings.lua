@@ -36,6 +36,7 @@ return {
     ["<C-a>"] = { "I<esc>", desc = "got the start of the line" },
     ["yY"] = { "ggVG", desc = "select AAAALLLLLLLLLL" },
     ["<Return>"] = { "<cmd>lua vim.lsp.buf.definition()<CR>", desc = "goooooooo to definition" },
+    ["<C-p>"] = { "@qn", desc = "rrruuuunnnn the macro and go to the next search term!!" },
   },
   i = {
     ["<C-e>"] = { "<esc>A", desc = "got the end of the line" },
