@@ -30,7 +30,7 @@ return {
     ["L"] = { ":bn<cr>", desc = ">>> buffer" },
     ["<leader>tt"] = { ":wa<cr>:Neotest run<cr>", desc = "run tests" },
     ["<leader>tT"] = { ":Neotest summary<cr>", desc = "run tests" },
-    ["<leader>tr"] = { ":w<cr>:Neotest run last<cr>", desc = "rerun last test" },
+    ["<leader>tr"] = { ":wa<cr>:Neotest run last<cr>", desc = "rerun last test" },
     ["<leader>to"] = { ":Neotest output<cr>", desc = "rerun last test" },
     ["<C-e>"] = { "A<esc>", desc = "got the end of the line" },
     ["<C-a>"] = { "I<esc>", desc = "got the start of the line" },
