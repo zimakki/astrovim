@@ -26,7 +26,7 @@ return {
     ["<leader>sw"] = { ":Telescope current_buffer_fuzzy_find<cr>", desc = " Search Buffer" },
     ["<leader>sh"] = { ":Telescope resume<cr>", desc = " Telescope History" },
     ["<leader>st"] = { ":TodoTelescope<cr>", desc = " Telescope todo's" },
-    ["<leader>sc"] = { ":Telescope command_history", desc = " Telescope command_history" },
+    ["<leader>sc"] = { ":Telescope command_history<CR>", desc = " Telescope command_history" },
     ["H"] = { ":bp<cr>", desc = "<<< buffer" },
     ["L"] = { ":bn<cr>", desc = ">>> buffer" },
     ["<leader>tt"] = { ":wa<cr>:Neotest run<cr>", desc = "run tests" },
