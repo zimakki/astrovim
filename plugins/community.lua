@@ -24,5 +24,4 @@ return {
   -- TODO:: see if there is a good plugin for Github PR's
   { import = "astrocommunity.code-runner.sniprun" },
   { import = "astrocommunity.split-and-window.windows-nvim" },
-  { import = "astrocommunity.editing-support.chatgpt-nvim" },
 }
