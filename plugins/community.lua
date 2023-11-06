@@ -22,6 +22,6 @@ return {
   { import = "astrocommunity.terminal-integration.flatten-nvim" },
   { import = "astrocommunity.diagnostics.trouble-nvim" },
   -- TODO:: see if there is a good plugin for Github PR's
-  { import = "astrocommunity.code-runner.sniprun" },
+  -- { import = "astrocommunity.code-runner.sniprun" },
   { import = "astrocommunity.split-and-window.windows-nvim" },
 }
