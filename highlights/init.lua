@@ -8,5 +8,5 @@ return {
   -- LspFloatWinNormal = {
   --   bg = "#1e2030",
   -- },
-  NormalFloat = { bg = "#33354f" },
+  -- NormalFloat = { bg = "#33354f" },
 }
