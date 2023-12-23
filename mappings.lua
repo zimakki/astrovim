@@ -34,6 +34,7 @@ return {
     ["<leader>tr"] = { ":wa<cr>:Neotest run last<cr>", desc = "🧪 rerun last test" },
     ["<leader>to"] = { ":Neotest output<cr>", desc = "🧪 open test output" },
     ["<leader>tp"] = { ":Neotest output-panel<cr>", desc = "🧪 open test panel" },
+    ["<leader><leader>"] = { ":Sad<CR>", desc = "🔃 find and replace" },
     ["<C-e>"] = { "$", desc = "got the end of the line" },
     ["<C-a>"] = { "0", desc = "got the start of the line" },
     ["yY"] = { "ggVG", desc = "select AAAALLLLLLLLLL" },
