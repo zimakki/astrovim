@@ -17,6 +17,7 @@ return {
   -- tailwindcss lsp is not showing up in ex and heex files
   { import = "astrocommunity.pack.tailwindcss" },
   { import = "astrocommunity.project.nvim-spectre" },
+  { import = "astrocommunity.search.sad-nvim" },
   { import = "astrocommunity.scrolling.mini-animate" },
   { import = "astrocommunity.split-and-window.windows-nvim" },
   { import = "astrocommunity.terminal-integration.flatten-nvim" },
