@@ -18,6 +18,7 @@ return {
   -- tailwindcss lsp is not showing up in ex and heex files
   { import = "astrocommunity.pack.tailwindcss" },
   { import = "astrocommunity.project.nvim-spectre" },
+  { import = "astrocommunity.project.projectmgr-nvim" },
   { import = "astrocommunity.search.sad-nvim" },
   { import = "astrocommunity.scrolling.mini-animate" },
   { import = "astrocommunity.split-and-window.windows-nvim" },
@@ -26,5 +27,4 @@ return {
 
   -- work out which project manager plugin to use
   -- TODO:   { import = "astrocommunity.project.project-nvim" },
-  -- TODO:   { import = "astrocommunity.project.projectmgr" },
 }
