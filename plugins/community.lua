@@ -23,4 +23,8 @@ return {
   { import = "astrocommunity.split-and-window.windows-nvim" },
   { import = "astrocommunity.terminal-integration.flatten-nvim" },
   { import = "astrocommunity.utility.noice-nvim" },
+
+  -- work out which project manager plugin to use
+  -- TODO:   { import = "astrocommunity.project.project-nvim" },
+  -- TODO:   { import = "astrocommunity.project.projectmgr" },
 }
