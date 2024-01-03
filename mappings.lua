@@ -40,6 +40,7 @@ return {
     ["yY"] = { "ggVG", desc = "select AAAALLLLLLLLLL" },
     ["<Return>"] = { "<cmd>lua vim.lsp.buf.definition()<CR>", desc = "goooooooo to definition" },
     ["<C-p>"] = { "@qn", desc = "rrruuuunnnn the macro and go to the next search term!!" },
+    ["<leader>aa"] = { ":ChatGPT<cr>", desc = "💬 ChatGPT" },
   },
   i = {
     ["<C-e>"] = { "<esc>A", desc = "got the end of the line" },
@@ -50,6 +51,7 @@ return {
     ["<C-e>"] = { "$", desc = "got the end of the line" },
     ["<C-a>"] = { "0", desc = "got the start of the line" },
     ["<leader>xr"] = { ":'<,'>SnipRun<CR>", desc = "run SnipRun!!!!" },
+    ["<leader>ai"] = { ":ChatGPTEditWithInstructions<cr>", desc = "💬 ChatGPTEditWithInstructions" },
   },
 
   t = {
