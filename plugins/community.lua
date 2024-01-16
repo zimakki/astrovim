@@ -11,15 +11,15 @@ return {
   { import = "astrocommunity.editing-support.todo-comments-nvim" },
   { import = "astrocommunity.editing-support.wildfire-nvim" },
   { import = "astrocommunity.git.diffview-nvim" },
-  { import = "astrocommunity.motion.flash-nvim" },
-  { import = "astrocommunity.motion.nvim-surround" },
+  -- { import = "astrocommunity.motion.flash-nvim" },
+  { import = "astrocommunity.motion.mini-surround" },
   { import = "astrocommunity.motion.vim-matchup" },
+  { import = "astrocommunity.motion.harpoon" },
   { import = "astrocommunity.pack.lua" },
   -- TODO: tailwindcss is working well in tsx files but does not work as well in ex and heex files
   -- formatting the tailwindcss classes in ex and heex files is not working
   -- tailwindcss lsp is not showing up in ex and heex files
   { import = "astrocommunity.pack.tailwindcss" },
-  { import = "astrocommunity.project.nvim-spectre" },
   { import = "astrocommunity.project.projectmgr-nvim" },
   { import = "astrocommunity.search.sad-nvim" },
   { import = "astrocommunity.scrolling.mini-animate" },
