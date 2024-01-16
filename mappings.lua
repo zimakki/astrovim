@@ -4,14 +4,10 @@
 -- lower level configuration and more robust one. (which-key will
 -- automatically pick-up stored data by this setting.)
 return {
-  -- first key is the mode
   n = {
-    -- second key is the lefthand side of the map
     -- mappings seen under group name "Buffer"
-    ["<leader>bn"] = { "<cmd>tabnew<cr>", desc = "New tab" },
-    -- tables with the `name` key will be registered with which-key if it's installed
-    -- this is useful for naming menus
     ["<leader>b"] = { name = "Buffers" },
+    ["<leader>bn"] = { "<cmd>tabnew<cr>", desc = "New tab" },
     -- 🔭 Telescope
     ["<leader>bb"] = { ":Telescope buffers<cr>", desc = "🔭 Buffers" },
     ["<leader>sw"] = { ":Telescope current_buffer_fuzzy_find<cr>", desc = "🔭 Search Buffer" },
@@ -30,7 +26,7 @@ return {
     ["<leader>tp"] = { ":Neotest output-panel<cr>", desc = "🧪 open test panel" },
     ["<leader>td"] = { ":TestNearest<cr>", desc = "🧪 debug nearest test" },
 
-    ["<leader><leader>"] = { ":Sad<CR>", desc = "🔃 find and replace" },
+    ["<leader>ss"] = { ":Sad<CR>", desc = "🔃 find and replace" },
 
     ["<C-e>"] = { "$", desc = "got the end of the line" },
     ["<C-a>"] = { "0", desc = "got the start of the line" },
