@@ -9,7 +9,7 @@ return {
   { import = "astrocommunity.diagnostics.trouble-nvim" },
   { import = "astrocommunity.debugging.nvim-bqf" },
   { import = "astrocommunity.editing-support.todo-comments-nvim" },
-  { import = "astrocommunity.editing-support.wildfire-nvim" },
+  -- { import = "astrocommunity.editing-support.wildfire-nvim" },
   { import = "astrocommunity.git.diffview-nvim" },
   -- { import = "astrocommunity.motion.flash-nvim" },
   { import = "astrocommunity.motion.mini-surround" },
