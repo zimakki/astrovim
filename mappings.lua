@@ -34,6 +34,8 @@ return {
     ["<C-p>"] = { "@qn", desc = "🏃💨 rrruuuunnnn the macro and go to the next search term!!" },
 
     ["<leader>aa"] = { ":ChatGPT<cr>", desc = "🧠 💬 ChatGPT" },
+    ["gj"] = { ":lua require('illuminate').goto_next_reference(wrap)<CR>", desc = "🏃💡 Illuminate Next" },
+    ["gk"] = { ":lua require('illuminate').goto_prev_reference(wrap)<CR>", desc = "🏃💡 Illuminate Prev" },
     ["gf"] = { "gF", desc = "📁 Better gf! you want to go to the line number if it can find it" },
   },
   i = {
