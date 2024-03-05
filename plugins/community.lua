@@ -15,7 +15,7 @@ return {
   -- { import = "astrocommunity.motion.flash-nvim" },
   { import = "astrocommunity.motion.mini-surround" },
   { import = "astrocommunity.motion.vim-matchup" },
-  { import = "astrocommunity.motion.harpoon" },
+  { import = "astrocommunity.motion.grapple-nvim" },
   { import = "astrocommunity.pack.lua" },
   -- TODO: tailwindcss is working well in tsx files but does not work as well in ex and heex files
   -- formatting the tailwindcss classes in ex and heex files is not working
