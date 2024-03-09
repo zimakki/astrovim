@@ -5,6 +5,7 @@ return {
   -- available plugins can be found at https://github.com/AstroNvim/astrocommunity
 
   { import = "astrocommunity.bars-and-lines.vim-illuminate" },
+  { import = "astrocommunity.color.transparent-nvim" },
   { import = "astrocommunity.colorscheme.catppuccin" },
   { import = "astrocommunity.diagnostics.trouble-nvim" },
   { import = "astrocommunity.debugging.nvim-bqf" },
