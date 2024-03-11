@@ -9,6 +9,7 @@ return {
     wrap = true, -- sets vim.opt.wrap
     cursorcolumn = true, -- sets vim.opt.cursorcolumn
     cursorline = true, -- sets vim.opt.cursorline
+    scrolloff = 15, -- make sure there are 15 lines above and below the cursor
   },
   g = {
     mapleader = " ", -- sets vim.g.mapleader
