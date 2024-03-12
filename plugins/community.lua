@@ -26,7 +26,6 @@ return {
   { import = "astrocommunity.project.projectmgr-nvim" },
   { import = "astrocommunity.search.sad-nvim" },
   { import = "astrocommunity.scrolling.mini-animate" },
-  { import = "astrocommunity.split-and-window.windows-nvim" },
   { import = "astrocommunity.terminal-integration.flatten-nvim" },
   { import = "astrocommunity.utility.noice-nvim" },
 
