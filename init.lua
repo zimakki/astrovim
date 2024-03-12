@@ -53,6 +53,25 @@ return {
       "lexical",
     },
     config = {
+      -- configure the tailwindcss lsp to work with heex and ex files too
+      tailwindcss = {
+        init_options = {
+          userLanguages = {
+            elixir = "phoenix-heex",
+            heex = "phoenix-heex",
+          },
+        },
+        settings = {
+          includeLanguages = {
+            ["html-eex"] = "html",
+            ["phoenix-heex"] = "html",
+            heex = "html",
+            eelixir = "html",
+            elixir = "html",
+          },
+        },
+      },
+      -- configure the lexical language server
       lexical = function()
         return {
           cmd = {
