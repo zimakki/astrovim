@@ -19,6 +19,7 @@ return {
   { import = "astrocommunity.motion.vim-matchup" },
   { import = "astrocommunity.motion.grapple-nvim" },
   { import = "astrocommunity.pack.lua" },
+  { import = "astrocommunity.pack.tailwindcss" },
   -- TODO: tailwindcss is working well in tsx files but does not work as well in ex and heex files
   -- formatting the tailwindcss classes in ex and heex files is not working
   -- tailwindcss lsp is not showing up in ex and heex files
