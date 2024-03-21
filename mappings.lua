@@ -24,7 +24,7 @@ return {
     ["<leader>tr"] = { ":wa<cr>:Neotest run last<cr>", desc = "🧪 rerun last test" },
     ["<leader>to"] = { ":Neotest output<cr>", desc = "🧪 open test output" },
     ["<leader>tp"] = { ":Neotest output-panel<cr>", desc = "🧪 open test panel" },
-    ["<leader>td"] = { ":TestNearest<cr>", desc = "🧪 debug nearest test" },
+    ["<leader>td"] = { ":wa<cr>:TestNearest<cr>", desc = "🧪 🐞 debug nearest test" },
 
     ["<leader>ss"] = { ":Sad<CR>", desc = "🔃 find and replace" },
 
