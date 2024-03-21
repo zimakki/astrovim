@@ -16,6 +16,20 @@ return {
   { import = "astrocommunity.git.diffview-nvim" },
   -- { import = "astrocommunity.motion.flash-nvim" },
   { import = "astrocommunity.motion.mini-surround" },
+  {
+    "echasnovski/mini.surround",
+    opts = {
+      mappings = {
+        add = "sa", -- Add surrounding in Normal and Visual modes
+        delete = "sd", -- Delete surrounding
+        find = "sf", -- Find surrounding (to the right)
+        find_left = "sF", -- Find surrounding (to the left)
+        highlight = "sh", -- Highlight surrounding
+        replace = "sr", -- Replace surrounding
+        update_n_lines = "sn", -- Update `n_lines`
+      },
+    },
+  },
   { import = "astrocommunity.motion.vim-matchup" },
   { import = "astrocommunity.motion.grapple-nvim" },
   { import = "astrocommunity.pack.lua" },
