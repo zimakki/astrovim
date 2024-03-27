@@ -39,15 +39,15 @@ return {
     ["gf"] = { "gF", desc = "📁 Better gf! you want to go to the line number if it can find it" },
   },
   i = {
-    ["<C-e>"] = { "<esc>A", desc = "got the end of the line" },
-    ["<C-a>"] = { "<esc>I", desc = "got the start of the line" },
+    ["<C-e>"] = { "<esc>A", desc = "▶ got the end of the line" },
+    ["<C-a>"] = { "<esc>I", desc = "◀ got the start of the line" },
     ["<C-p>"] = { "|>", desc = "insert a |>" },
     ["<C-j>"] = { "<%=", desc = "insert a <%=" },
     ["<C-k>"] = { "%>", desc = "insert a %>" },
   },
   v = {
-    ["<C-e>"] = { "$", desc = "got the end of the line" },
-    ["<C-a>"] = { "0", desc = "got the start of the line" },
+    ["<C-e>"] = { "$", desc = "▶ got the end of the line" },
+    ["<C-a>"] = { "0", desc = "◀ got the start of the line" },
     ["<leader>ai"] = { ":ChatGPTEditWithInstructions<cr>", desc = "💬 ChatGPTEditWithInstructions" },
   },
 
